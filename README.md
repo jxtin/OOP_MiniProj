@@ -19,11 +19,11 @@ Provide parameterized constructor and display function and overload ‘+’ oper
 
 ----------------------------------------------------------------
 
-Added functionality :
+Added functionalities :
 ----------------------------------------------------------------
-- Overloaded - Operator
-- Overloaded << and >> operators
-- Added colors to the output terminal, using windows.h (Windows only)
+- Overloaded '-' Operator
+- Overloaded '<<" and '>>' operators 
+- Added colors to the output terminal, using windows.h (For windows only)
 - Default constructor
 - Array of distance objects
   
@@ -32,12 +32,12 @@ Added functionality :
 ### To compile the following code:
 
 
-No-Color (Runs on both windows and linux, but no color)
+No-Color (Runs for both windows and linux, but no color)
 ```
 g++ code.cpp
 ./a.out  (or a.exe)
 ```
-With-Color (Runs on both windows only)
+With-Color (Runs for windows only)
 
 ```
 g++ code.cpp
