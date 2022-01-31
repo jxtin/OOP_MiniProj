@@ -126,7 +126,7 @@ istream &operator>>(istream &in, distance_ &d) // overloaded istream operator
     in >> d.cm;                          // input cm
     if (d.km < 0 || d.m < 0 || d.cm < 0) // check for negative input
     {
-        cout << "Invalid input" << endl;
+        cout << "Invalid input!" << endl;
         return in;
     }
     d.carry_over(); // carry over function called
