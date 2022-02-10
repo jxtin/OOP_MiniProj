@@ -41,17 +41,20 @@ Added functionalities :
 
 
 ![ss3](screenshots/ss3.png)
+
+![ss4](screenshots/ss4.png)
+
 ----------------------------------------------------------------
 
 ### To compile the following code:
 
 
-Code.cpp (Runs for both windows and linux (without color))
+Code.cpp (Runs for both windows and linux (without color)) [UPDATED WITH CITY FUNCTIONALITY]
 ```
 g++ code.cpp
 ./a.out  (or a.exe)
 ```
-Color-code.cpp (Runs for windows only(with color))
+Color-code.cpp (Runs for windows only(with color)) [OLD]
 
 ```
 g++ code.cpp
@@ -61,7 +64,8 @@ run a.exe
 ### Compiled files
 
 ```
-Compiled_Files/no-color.out
-Compiled_Files/no-color.exe
-Compiled_Files/color-code.exe
+Compiled_Files/old-no-color.out
+Compiled_Files/old-no-color.exe
+Compiled_Files/old-color-code.exe
+Compiled_Files/final-code.out 
 ```
